@@ -52,7 +52,7 @@ class Account {
     );
   }
 
-  // transfern in
+  // transfern
   void transfer(double amount, Account recipient) {
     if (amount <= 0) {
       throw ArgumentError("Transfer amount must be greater than zero.");
