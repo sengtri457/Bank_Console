@@ -4,6 +4,8 @@ A Dart console application that simulates a simple banking system with user auth
 
 ## Features
 
+<<<<<<< HEAD
+
 - **User Login** — Secure login with username and password (max 3 attempts)
 - **PIN Verification** — PIN required before every banking operation (3 attempts per operation)
 - **Check Balance** — View account balances in a formatted table
@@ -12,6 +14,18 @@ A Dart console application that simulates a simple banking system with user auth
 - **Transfer** — Transfer money between accounts (own accounts or other users)
 - **Transaction History** — View deposit, withdrawal, and transfer history with timestamps
 - **Logout** — Return to login screen securely
+  \=======
+
+* **User Login** — Secure login with username and password (max 3 attempts)
+* **PIN Verification** — PIN required before every banking operation (3 attempts per operation)
+* **Check Balance** — View account balances in a formatted table
+* **Deposit** — Add funds to any of your accounts
+* **Withdraw** — Withdraw funds with insufficient funds protection
+* **Transfer** — Transfer money between accounts (own accounts or other users)
+* **Transaction History** — View deposit, withdrawal, and transfer history with timestamps
+* **Logout** — Return to login screen securely
+
+> > > > > > > a469aac8baea92f0a41222c22d428d4636983679
 
 ## Validation Rules
 
@@ -28,7 +42,14 @@ A Dart console application that simulates a simple banking system with user auth
 
 ### Prerequisites
 
+<<<<<<< HEAD
+
 - [Dart SDK](https://dart.dev/get-dart) ^3.11.4
+  \=======
+
+* [Dart SDK](https://dart.dev/get-dart) ^3.11.4
+
+> > > > > > > a469aac8baea92f0a41222c22d428d4636983679
 
 ### Run the Application
 
@@ -105,6 +126,13 @@ bank_account/
 
 ## Dependencies
 
+<<<<<<< HEAD
+
 - [intl](https://pub.dev/packages/intl) ^0.20.2 — Date formatting for transaction history
 - [path](https://pub.dev/packages/path) ^1.9.0 — Path manipulation
 - [test](https://pub.dev/packages/test) ^1.25.6 (dev) — Unit testing
+  \=======
+
+* [intl](https://pub.dev/packages/intl) ^0.20.2 — Date formatting for transaction history
+* [path](https://pub.dev/packages/path) ^1.9.0 — Path manipulation
+* [test](https://pub.dev/packages/test) ^1.25.6 (dev) — Unit testing
